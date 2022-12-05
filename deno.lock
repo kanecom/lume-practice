@@ -407,6 +407,7 @@
       "markdown-it-attrs@4.1.4": "markdown-it-attrs@4.1.4_markdown-it@13.0.1",
       "markdown-it-deflist@2.1.0": "markdown-it-deflist@2.1.0",
       "markdown-it@13.0.1": "markdown-it@13.0.1",
+      "preact": "preact@10.11.3",
       "preact-render-to-string@5.2.6": "preact-render-to-string@5.2.6_preact@10.11.3",
       "preact@10.11.3": "preact@10.11.3",
       "react-dom@18.2.0": "react-dom@18.2.0_react@18.2.0",

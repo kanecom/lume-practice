@@ -1,3 +1,8 @@
+---
+title: Lumeへようこそ
+layout: layout.tsx
+---
+
 # Welcome to my website
 
 This is my first page using **Lume,**

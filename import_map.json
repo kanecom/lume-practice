@@ -1,5 +1,7 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.13.2/"
+    "lume/": "https://deno.land/x/lume@v1.13.2/",
+    "preact/jsx-runtime": "npm:preact/jsx-runtime?dts",
+    "preact/jsx-dev-runtime": "npm:preact/jsx-dev-runtime?dts"
   }
 }
