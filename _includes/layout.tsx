@@ -12,6 +12,7 @@ export default (props: PageProps) => (
       <title>{props.title}</title>
     </head>
     <body>
+    <div id="search"></div>
       {props.children}
     </body>
   </html>
