@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Lumeへようこそ</title><link rel="stylesheet" href="/lume-practice/pagefind/pagefind-ui.css"><link rel="stylesheet" href="/lume-practice/styles.css"><script type="text/javascript" src="/lume-practice/pagefind/pagefind-ui.js"></script><script type="text/javascript">window.addEventListener('DOMContentLoaded', () => { new PagefindUI({"element":"#search","showImages":false,"showEmptyFilters":true,"resetStyles":true,"bundlePath":"/lume-practice/pagefind/","baseUrl":"/lume-practice/"}); });</script></head><body><div id="search"></div><div><h1>Welcome to my website</h1>
+<p>This is my first page using <strong>Lume,</strong>
+a static site generator for Deno.</p>
+<p>I hope you enjoy it.</p>
+<pre><code class="language-js hljs language-javascript"><span class="hljs-keyword">import</span> lume <span class="hljs-keyword">from</span> <span class="hljs-string">"lume/mod.ts"</span>;
+<span class="hljs-keyword">import</span> codeHighlight <span class="hljs-keyword">from</span> <span class="hljs-string">"lume/plugins/code_highlight.ts"</span>;
+
+<span class="hljs-keyword">const</span> site = <span class="hljs-title function_">lume</span>();
+
+site.<span class="hljs-title function_">use</span>(<span class="hljs-title function_">codeHighlight</span>());
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> site;
+</code></pre>
+</div></body></html>
