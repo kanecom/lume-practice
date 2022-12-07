@@ -8,16 +8,17 @@ import basePath from "lume/plugins/base_path.ts";
 
 const site = lume();
 
-site.use(jsx());
-site.use(mdx());
-site.use(pagefind({
-  binary: {
-    extended: true, // Set true for Chinese and Japanese support.
-  },
-}));
-site.use(codeHighlight());
-site.copy("styles.css");
-site.use(esbuild());
-site.use(basePath());
+site
+  .use(jsx())
+  .use(mdx())
+  .use(pagefind({
+    binary: {
+      extended: true, // Set true for Chinese and Japanese support.
+    },
+  }))
+  .use(codeHighlight())
+  .copy("styles.css")
+  .use(esbuild())
+  .use(basePath());
 
 export default site;
