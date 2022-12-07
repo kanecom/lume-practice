@@ -6,7 +6,9 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import esbuild from "lume/plugins/esbuild.ts";
 import basePath from "lume/plugins/base_path.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://kanecom.github.io/lume-practice/"),
+});
 
 site
   .use(jsx())
