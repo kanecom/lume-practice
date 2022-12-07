@@ -3,6 +3,7 @@ import jsx from "lume/plugins/jsx_preact.ts";
 import mdx from "lume/plugins/mdx.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
+import esbuild from "lume/plugins/esbuild.ts";
 
 const site = lume();
 
@@ -14,6 +15,7 @@ site.use(pagefind({
   },
 }));
 site.use(codeHighlight());
-site.copy("styles.css")
+site.copy("styles.css");
+site.use(esbuild());
 
 export default site;
