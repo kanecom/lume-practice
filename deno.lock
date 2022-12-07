@@ -365,6 +365,7 @@
     "https://deno.land/x/lume@v1.13.2/deps/front_matter.ts": "6cf6ea2fc04a39a3c9ab7098e6d6f8029aab4005342b724ea9430fc819f7c10d",
     "https://deno.land/x/lume@v1.13.2/deps/fs.ts": "61940ed31896edfe6833973b6fe57031dceb0a6309bfc42e74d0a581cccd7c9b",
     "https://deno.land/x/lume@v1.13.2/deps/hex.ts": "53791fd47ff16d2925ea60502bee2421280cfb57ac843ee9f318c9ebf6fffd5b",
+    "https://deno.land/x/lume@v1.13.2/deps/highlight.ts": "cf605598fd14ff13da2c973c8501ab5e76f868054a7616df2b333a0cfe31e4d9",
     "https://deno.land/x/lume@v1.13.2/deps/http.ts": "2379397b3097168a6621ec45905998273a25a12e1ade46f4c66d7a6d5de8ff33",
     "https://deno.land/x/lume@v1.13.2/deps/imagick.ts": "752ad4f244516971daf57ca8bb7d8b6670f78311cbae5338f64f9b2ab324f3b4",
     "https://deno.land/x/lume@v1.13.2/deps/jsonc.ts": "295740389184a715ed6b4917883a91f6cef7254b8b22c78d79d9265afefde0bd",
@@ -383,6 +384,7 @@
     "https://deno.land/x/lume@v1.13.2/middlewares/reload.ts": "906f3e497613538efe5531e47a19f9b4966cc1dd12acf3f11e7fd12c4da0df66",
     "https://deno.land/x/lume@v1.13.2/middlewares/reload_client.js": "34d75e01503fae8180796de882af42b1125fac88f22a010a99d5548de1ba7d72",
     "https://deno.land/x/lume@v1.13.2/mod.ts": "9ab3be81cb0638e6dc0d77a6bf33097a531ab412ebffd55748515d4d2c8bfee4",
+    "https://deno.land/x/lume@v1.13.2/plugins/code_highlight.ts": "5b177676c6c60ba10d676ac9fc8b8b3103920529bb115656adc406737f25c9ab",
     "https://deno.land/x/lume@v1.13.2/plugins/imagick.ts": "50983cad8e4b97fd6004815bcbeb0fa3e3d332388ecd3bfe6e02a94e5710cef6",
     "https://deno.land/x/lume@v1.13.2/plugins/json.ts": "60f3b8616c282a9c592e1974db143b3461999c55b20235eebced87482ebf16bd",
     "https://deno.land/x/lume@v1.13.2/plugins/jsx.ts": "529e290beb2e55c3de8392a5fec2789bf774e48e90e4d2959d8938cdf31b0328",
@@ -426,6 +428,7 @@
   "npm": {
     "specifiers": {
       "@mdx-js/mdx@2.1.5": "@mdx-js/mdx@2.1.5",
+      "highlight.js@11.7.0": "highlight.js@11.7.0",
       "markdown-it-attrs@4.1.4": "markdown-it-attrs@4.1.4_markdown-it@13.0.1",
       "markdown-it-deflist@2.1.0": "markdown-it-deflist@2.1.0",
       "markdown-it@13.0.1": "markdown-it@13.0.1",
@@ -727,6 +730,10 @@
           "property-information": "property-information@6.2.0",
           "space-separated-tokens": "space-separated-tokens@2.0.2"
         }
+      },
+      "highlight.js@11.7.0": {
+        "integrity": "sha512-1rRqesRFhMO/PRF+G86evnyJkCgaZFOI+Z6kdj15TA18funfoqJXvgPCLSf0SWq3SRfg1j3HlDs8o4s3EGq1oQ==",
+        "dependencies": {}
       },
       "html-void-elements@2.0.1": {
         "integrity": "sha512-0quDb7s97CfemeJAnW9wC0hw78MtW7NU3hqtCD75g2vFlDLt36llsYD7uB7SUzojLMP24N5IatXf7ylGXiGG9A==",

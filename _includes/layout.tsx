@@ -10,6 +10,7 @@ export default (props: PageProps) => (
     <head>
       <meta charSet="UTF-8" />
       <title>{props.title}</title>
+      <link rel="stylesheet" href="/styles.css"></link>
     </head>
     <body>
     <div id="search"></div>
