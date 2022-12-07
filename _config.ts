@@ -4,6 +4,7 @@ import mdx from "lume/plugins/mdx.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
 import esbuild from "lume/plugins/esbuild.ts";
+import basePath from "lume/plugins/base_path.ts";
 
 const site = lume();
 
@@ -17,5 +18,6 @@ site.use(pagefind({
 site.use(codeHighlight());
 site.copy("styles.css");
 site.use(esbuild());
+site.use(basePath());
 
 export default site;
